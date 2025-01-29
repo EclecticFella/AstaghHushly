@@ -13,5 +13,12 @@
     "react": "latest",
     "react-dom": "latest",
     "gh-pages": "latest"
+    "scripts": {
+  "dev": "next dev",
+  "build": "next build && next export",
+  "start": "next start",
+  "deploy": "next build && next export"
+}
+
   }
 }
